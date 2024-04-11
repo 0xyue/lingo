@@ -41,3 +41,23 @@ npx shadcn-ui@latest add button
 
 # 3.Marketing Skeleton
 在文件夹名称中加上括号，就不会反应到 url 中
+
+# 4.Authentication
+## 使用 [clerk](https://dashboard.clerk.com) 做认证
+
+在 clerk创建好项目后，添加.env 文件，将密钥保存在文件中
+并在.gitignore 中加入.env
+
+在本地安装 clerk
+```
+npm install @clerk/nextjs
+```
+
+## 作者图标github链接
+https://github.com/AntonioErdeljac/lingo-early-access/tree/master/public
+
+## 免费游戏资产
+Kenney Assets:https://kenney.nl/
+
+## Flagpack
+Flagpack: https://flagpack.xyz/
