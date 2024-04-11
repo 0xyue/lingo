@@ -39,3 +39,5 @@ npx shadcn-ui@latest add button
 # 2.Buttons Library
 自定义 button 组件库 [button.tsx](components/ui/button.tsx)
 
+# 3.Marketing Skeleton
+在文件夹名称中加上括号，就不会反应到 url 中
