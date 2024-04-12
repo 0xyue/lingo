@@ -71,3 +71,6 @@ Flagpack: https://flagpack.xyz/
 ```
 npx shadcn-ui@latest add sheet
 ```
+
+# 7.Sidebar
+sidebar 功能实现
