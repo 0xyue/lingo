@@ -63,3 +63,11 @@ Kenney Assets:https://kenney.nl/
 
 ## Flagpack
 Flagpack: https://flagpack.xyz/
+
+
+# 6.Main Layout
+
+## 添加shadcn 的sheet
+```
+npx shadcn-ui@latest add sheet
+```
