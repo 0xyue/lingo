@@ -106,3 +106,8 @@ npm i dotenv
 
 # 10.Courses Page
 Courses Page布局
+
+# 11.User Progress
+```
+npx shadcn-ui@latest add sonner
+```
