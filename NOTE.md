@@ -77,3 +77,30 @@ sidebar 功能实现
 
 # 8.Learn Page Wrappers
 Learn Page Wrappers 布局
+
+# 9.Drizzle & Neon
+## Neon
+https://console.neon.tech
+
+## Drizzle
+https://orm.drizzle.team/docs/get-started-postgresql
+
+```
+npm i drizzle-orm @neondatabase/serverless
+npm i -D drizzle-kit
+```
+
+```
+npm run db:push
+npm run db:studio
+```
+
+```
+npm i -D pg
+```
+
+### env
+```
+npm i dotenv
+```
+
