@@ -111,3 +111,9 @@ Courses Page布局
 ```
 npx shadcn-ui@latest add sonner
 ```
+
+# 12.Seed Script
+```
+npm i -D tsx
+```
+tsx ./scripts/seed.ts
