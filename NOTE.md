@@ -1,3 +1,4 @@
+记录各个学习片段中使用到的命令和链接
 
 # 1.project setup
 
@@ -117,3 +118,6 @@ npx shadcn-ui@latest add sonner
 npm i -D tsx
 ```
 tsx ./scripts/seed.ts
+
+# 13.Schema
+添加 units lessons challenges challengesOptions challengeProgress
