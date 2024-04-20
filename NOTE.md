@@ -124,3 +124,8 @@ tsx ./scripts/seed.ts
 
 # 14.Units
 添加 units 数据，以及 getUnits 方法
+
+# 15.Lesson Button
+```
+npm i react-circular-progressbar
+```
