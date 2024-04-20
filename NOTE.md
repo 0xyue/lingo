@@ -121,3 +121,6 @@ tsx ./scripts/seed.ts
 
 # 13.Schema
 添加 units lessons challenges challengesOptions challengeProgress
+
+# 14.Units
+添加 units 数据，以及 getUnits 方法
