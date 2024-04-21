@@ -130,3 +130,8 @@ tsx ./scripts/seed.ts
 npm i react-circular-progressbar
 ```
 # 16.Course Progress
+
+# 17.Lesson Header
+```
+npx shadcn-ui@latest add progress
+```

@@ -49,6 +49,8 @@ export const getUnits = cache(async () => {
 
     const normalizedData = data.map((unit) => {
         const lessonsWithCompletedStatus = unit.lessons.map((lesson) => {
+            if (lesson.challenges.length === 0) return { ...lesson, completed: false };
+
             const allCompletedChallenges = lesson.challenges.every((challenge) => {
                 return challenge.challengeProgress
                     && challenge.challengeProgress.length > 0
@@ -139,7 +141,7 @@ export const getLesson = cache(async (id?: number) => {
             challenges: {
                 orderBy: (challenges, { asc }) => [asc(challenges.order)],
                 with: {
-                    challengesOptions: true,
+                    challengeOptions: true,
                     challengeProgress: {
                         where: eq(challengeProgress.userId, userId),
                     },
