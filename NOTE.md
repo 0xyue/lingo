@@ -135,3 +135,9 @@ npm i react-circular-progressbar
 ```
 npx shadcn-ui@latest add progress
 ```
+
+# 18.Exit Modal
+```
+npx shadcn-ui@latest add dialog
+npm i zustand
+```
