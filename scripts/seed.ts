@@ -17,7 +17,7 @@ const main = async () => {
         await db.delete(schema.units);
         await db.delete(schema.lessons);
         await db.delete(schema.challenges);
-        await db.delete(schema.challengesOptions);
+        await db.delete(schema.challengeOptions);
         await db.delete(schema.challengeProgress);
 
         await db.insert(schema.courses).values([
@@ -96,7 +96,7 @@ const main = async () => {
             },
         ]);
 
-        await db.insert(schema.challengesOptions).values([
+        await db.insert(schema.challengeOptions).values([
             {
                 id: 1,
                 challengeId: 1,  // Which one of these is the "the man"?

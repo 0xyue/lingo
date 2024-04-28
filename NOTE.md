@@ -145,3 +145,11 @@ npm i zustand
 
 ## svg 资源网站
 https://www.svgrepo.com/
+
+# 20.Challenge Footer
+语音文件生成
+https://elevenlabs.io/
+
+```
+npm i react-use
+```
